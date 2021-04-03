@@ -57,13 +57,11 @@ a {
 }
 .books-img {
   margin-left: 30px;
-  width: 25%;
+  width: 35%;
   float: right;
 }
 .comp-img {
-  margin-right: 30px;
-  border-radius: 100%;
-  width: 25%;
+  width: 35%;
   float: left;
 }
 .top-container {
@@ -81,10 +79,31 @@ a {
   left: 400px;
   bottom: 300px;
 }
+@media screen and (max-width: 600px) {
+  .profile p {
+    padding: 10px;
+  }
+  h1 {
+    margin: 40px auto 0;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 30px;
+    top: 90px;
+  }
+  .back {
+    width: 100vw;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 30px;
+    top: 500px;
+  }
+}
 .skill-row {
   line-height: 2;
   text-align: left;
-  width: 50%;
+  width: 70%;
   margin: 100px auto;
 }
 .bottom-container {
